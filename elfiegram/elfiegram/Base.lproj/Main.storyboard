@@ -25,6 +25,24 @@
             </objects>
             <point key="canvasLocation" x="683" y="-1377"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="s87-Jp-ymG">
+            <objects>
+                <navigationController id="GMI-hc-WYd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="UI9-2U-M6G"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JWM-dd-VDZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.1041454567" green="1" blue="0.9941132412" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XjX-Bx-RK6" kind="relationship" relationship="rootViewController" id="Dfd-Lk-0Rx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMM-VN-vez" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-33" y="-694"/>
+        </scene>
         <!--testing-->
         <scene sceneID="qPR-hV-ee1">
             <objects>
@@ -49,10 +67,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="Profile" id="uOg-yl-ffh"/>
+                    <navigationItem key="navigationItem" id="aU8-9c-7L6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RkH-p0-7Ey" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-41" y="-705"/>
+            <point key="canvasLocation" x="675" y="-705"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="JQA-u4-nzF">
@@ -91,9 +110,9 @@
                         <color key="selectedImageTintColor" red="0.11883529326398812" green="1" blue="0.58527159727602651" alpha="0.0" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="XjX-Bx-RK6" kind="relationship" relationship="viewControllers" id="sCL-SB-XNQ"/>
                         <segue destination="ZTd-M9-NKf" kind="relationship" relationship="viewControllers" id="iAA-cg-fBW"/>
                         <segue destination="s1V-kJ-dAh" kind="relationship" relationship="viewControllers" id="9Nt-T1-6aq"/>
+                        <segue destination="GMI-hc-WYd" kind="relationship" relationship="viewControllers" id="IgN-7w-tQc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hXA-Cg-QVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -109,6 +128,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lhK-Ih-7u8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.1041454567" green="1" blue="0.9941132412" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -128,6 +148,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hk4-AR-iHJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.13275773809999999" green="1" blue="0.99550770129999999" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
