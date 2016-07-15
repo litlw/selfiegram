@@ -84,10 +84,11 @@
         <scene sceneID="SQG-o9-C83">
             <objects>
                 <tabBarController id="dia-4J-U8B" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="do8-CD-Yvf">
+                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="fill" id="do8-CD-Yvf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="1" green="0.091072018800000001" blue="0.1161377435" alpha="0.52126869248466257" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.11883529326398812" green="1" blue="0.58527159727602651" alpha="0.0" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="XjX-Bx-RK6" kind="relationship" relationship="viewControllers" id="sCL-SB-XNQ"/>
