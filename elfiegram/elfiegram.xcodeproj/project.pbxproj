@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0732D51D3EFB2800DF21A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0732D41D3EFB2800DF21A1 /* ProfileViewController.swift */; };
 		1EED32DE1D38565600AF1BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED32DD1D38565600AF1BE0 /* AppDelegate.swift */; };
 		1EED32E01D38565600AF1BE0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED32DF1D38565600AF1BE0 /* RootViewController.swift */; };
 		1EED32E21D38565600AF1BE0 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED32E11D38565600AF1BE0 /* DataViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0732D41D3EFB2800DF21A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1EED32DA1D38565600AF1BE0 /* elfiegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elfiegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EED32DD1D38565600AF1BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EED32DF1D38565600AF1BE0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				1EED32DD1D38565600AF1BE0 /* AppDelegate.swift */,
+				1E0732D41D3EFB2800DF21A1 /* ProfileViewController.swift */,
 				1EED32DF1D38565600AF1BE0 /* RootViewController.swift */,
 				1EED32E11D38565600AF1BE0 /* DataViewController.swift */,
 				1EED32E31D38565600AF1BE0 /* ModelController.swift */,
@@ -144,6 +147,7 @@
 			files = (
 				1EED32E01D38565600AF1BE0 /* RootViewController.swift in Sources */,
 				1EED32E41D38565600AF1BE0 /* ModelController.swift in Sources */,
+				1E0732D51D3EFB2800DF21A1 /* ProfileViewController.swift in Sources */,
 				1EED32E21D38565600AF1BE0 /* DataViewController.swift in Sources */,
 				1EED32DE1D38565600AF1BE0 /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +307,7 @@
 				1EED32F21D38565600AF1BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
